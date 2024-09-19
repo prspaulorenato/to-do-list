@@ -27,6 +27,10 @@ body,html{
     align-items: center;
 }
 
+form{
+    margin-bottom: 50px;
+}
+
 #item1{
     width: 0;
     height: 0;
@@ -49,13 +53,6 @@ body,html{
     rotate: 180deg;
 }
 
-
-
-form{
-    
-    
-}
-
 form button{
     background-color: #3F7379;
     border-radius: 50%;
@@ -66,19 +63,21 @@ form button{
 }
 
 form input{
-    padding: 8px;
+    padding: 12px;
     border: none;
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     outline: none;
-    
+    background-color: #f7f7f7;
+    width: 250px;
+    border: 5px solid #3F7379; 
 }
 
-form #img-add{
+form #btn-add{
     top: 39%;
     z-index: 1;
-    right: 5%;
-    top:8px;
+    left: 10px;
+    top:5px;
     width: 50px;
     height: 50px;
     color:#fff;
@@ -86,4 +85,19 @@ form #img-add{
 }
 h1{
     color: #16363a;
+}
+
+#item-tarefa{
+    flex-direction: column;
+    width: 300px;
+    height: 50px;
+    background-color: #f7f7f7;
+    border: 5px solid #3F7379;
+    position: relative;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
