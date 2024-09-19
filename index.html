@@ -3,29 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>To-do-list</title>
 </head>
 <body>
     <div class="container">
+        
         <div id="img-prancheta">
-            <img src="./prancheta.png" alt="">
+            <img src="./img/prancheta.png" alt="">
         </div>
+
+        <h1>To-do-list</h1>
+
         <form>
-            <div id="ver-tarefa">
-                <img src="./olho.png"><input type="text" placeholder="Ver tarefas">
-            </div>
-            <div id="add-tarefa">
-                <img src="./add.png"><input type="text" placeholder="Add tarefas">
-            </div>
+            <input type="text" placeholder="Adicionar tarefa" required>
+            <button id="img-add" src="./img/add.png">+</button>
+            <!-- <div><p>Ver tarefas</p><img src="./img/olho.png"></div> -->
         </form>
-        <div id="item1">
 
-        </div>
-
-        <div id="item2">
-
-        </div>
+        <!-- triangulos dos cantos -->
+        <div id="item1"></div>
+        <div id="item2"></div>
     </div>
     <script src="./script.js"></script>
 </body>

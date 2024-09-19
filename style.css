@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
 }
 
 
@@ -14,11 +17,14 @@ body,html{
     
 }
 .container{ 
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     background-color: #93B4C3;
     border: 20px solid #3F7379;
     position: relative;
+    align-items: center;
 }
 
 #item1{
@@ -43,24 +49,41 @@ body,html{
     rotate: 180deg;
 }
 
-.container #img-prancheta{
-    text-align: center;
-}
+
 
 form{
-    text-align: center;
+    
+    
 }
 
-form img{
-    width: 50px;
+form button{
     background-color: #3F7379;
     border-radius: 50%;
-    margin-left: -58px;
-    position: absolute;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    position: relative ;
+    
 }
 
 form input{
     padding: 8px;
-    border-radius: 8px;
-    margin-bottom: 8px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    outline: none;
+    
+}
+
+form #img-add{
+    top: 39%;
+    z-index: 1;
+    right: 5%;
+    top:8px;
+    width: 50px;
+    height: 50px;
+    color:#fff;
+    font-size: 32px;
+}
+h1{
+    color: #16363a;
 }
